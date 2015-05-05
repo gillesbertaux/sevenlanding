@@ -1,0 +1,12 @@
+
+@mixin button($width, $height, $ln) { width: $width; height: $height; display: inline-block; padding: 0 10px 0 10px; text-align: center; line-height: $ln; vertical-align: top; }
+@mixin main-cta {
+	@include cta-web;
+	background: $defaultrose;
+	-moz-box-shadow: inset 0px -2px 0px 0px rgba(34,33,34,0.35), inset 0px 1px 0px 0px rgba(255,255,255,0.19);
+	box-shadow: inset 0px -2px 0px 0px rgba(34,33,34,0.35), inset 0px 1px 0px 0px rgba(255,255,255,0.19);
+	outline: 0;
+	border: 0px;
+	color:#fff;
+	font-size: 1em;
+}

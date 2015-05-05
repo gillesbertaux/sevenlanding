@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.3.2 (12041) - http://www.bohemiancoding.com/sketch -->
+    <title>apple</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="landing_pages_uikit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Landing-page-with-card-aligned-left-Copy" sketch:type="MSArtboardGroup" transform="translate(-164.000000, -1345.000000)">
+            <g id="sections" sketch:type="MSLayerGroup">
+                <g id="section-2" transform="translate(0.000000, 794.000000)" sketch:type="MSShapeGroup">
+                    <g id="items-+-btn-copy" transform="translate(165.000000, 258.000000)">
+                        <g id="items">
+                            <g id="item-1-copy-3" transform="translate(0.000000, 294.000000)">
+                                <g id="apple">
+                                    <circle id="Oval-19" stroke="#FFFFFF" cx="34" cy="34" r="34"></circle>
+                                    <path d="M40.873746,33.3370461 C40.9117136,37.4258362 44.4606947,38.7864825 44.5000126,38.8038494 C44.4700043,38.8998097 43.9329447,40.7429036 42.6302408,42.646688 C41.5041106,44.2926061 40.335336,45.9324948 38.4941707,45.9664583 C36.6850416,45.9997932 36.1033057,44.8936401 34.0349589,44.8936401 C31.967237,44.8936401 31.3209019,45.9324921 29.6083598,45.9997932 C27.8311681,46.0670451 26.4778553,44.2199508 25.3423666,42.5800621 C23.0221328,39.2256144 21.2489942,33.101181 23.6298712,28.9670886 C24.8126401,26.9140815 26.9263376,25.6140317 29.2205672,25.5806944 C30.965724,25.5474053 32.6129446,26.7547776 33.679781,26.7547776 C34.745941,26.7547776 36.7476645,25.3028066 38.8520027,25.5160469 C39.7329506,25.5527128 42.2057856,25.8719 43.7936609,28.1961372 C43.6657173,28.2754526 40.8430625,29.9186678 40.873746,33.33705 M37.473697,23.2967871 C38.41722,22.15469 39.0522653,20.5647854 38.879018,18.982841 C37.5190006,19.0375015 35.8744339,19.8891188 34.8989237,21.0305875 C34.0246792,22.0414111 33.2590375,23.6592989 33.4656209,25.2099332 C34.98152,25.3272163 36.5301276,24.4396104 37.473697,23.2967889" id="Shape" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

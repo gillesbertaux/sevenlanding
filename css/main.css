@@ -1,0 +1,296 @@
+/*=============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/*=============================================================================
+   SPACING + RATIO
+   ========================================================================== */
+/*=============================================================================
+   COLORS
+   ========================================================================== */
+/**** GLOBAL RULES ****/
+h1, h2, p {
+  color: #fff; }
+
+/*=============================================================================
+   FONTS
+   ========================================================================== */
+@font-face {
+  font-family: 'effra';
+  src: url("../fonts/effra_regular-webfont.eot");
+  src: url("../fonts/effra_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/effra_regular-webfont.woff2") format("woff2"), url("../fonts/effra_regular-webfont.woff") format("woff"), url("../fonts/effra_regular-webfont.ttf") format("truetype"), url("../fonts/effra_regular-webfont.svg#effraregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'effra';
+  src: url("../fonts/effra_medium-webfont.eot");
+  src: url("../fonts/effra_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/effra_medium-webfont.woff2") format("woff2"), url("../fonts/effra_medium-webfont.woff") format("woff"), url("../fonts/effra_medium-webfont.ttf") format("truetype"), url("../fonts/effra_medium-webfont.svg#effra_mediumregular") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'effra';
+  src: url("../fonts/effra_light-webfont.eot");
+  src: url("../fonts/effra_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/effra_light-webfont.woff2") format("woff2"), url("../fonts/effra_light-webfont.woff") format("woff"), url("../fonts/effra_light-webfont.ttf") format("truetype"), url("../fonts/effra_light-webfont.svg#effra_lightregular") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'din';
+  src: url("../fonts/dinpro_regular-webfont.eot");
+  src: url("../fonts/dinpro_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dinpro_regular-webfont.woff2") format("woff2"), url("../fonts/dinpro_regular-webfont.woff") format("woff"), url("../fonts/dinpro_regular-webfont.ttf") format("truetype"), url("../fonts/dinpro_regular-webfont.svg#dinpro-regularregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'din';
+  src: url("../fonts/dinpro_medium-webfont.eot");
+  src: url("../fonts/dinpro_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dinpro_medium-webfont.woff2") format("woff2"), url("../fonts/dinpro_medium-webfont.woff") format("woff"), url("../fonts/dinpro_medium-webfont.ttf") format("truetype"), url("../fonts/dinpro_medium-webfont.svg#dinpromedium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+/**** HELPERS ****/
+/**** GLOBAL TYPOGRAPHY ****/
+h1 {
+  font-family: "effra";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3.4rem; }
+
+h2 {
+  font-family: "effra";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3.4rem;
+  line-height: 1.2; }
+
+h3 {
+  font-family: "din";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #000;
+  font-size: 1.2em;
+  line-height: 1.3em; }
+
+p {
+  font-family: "effra";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem; }
+
+a {
+  text-decoration: none;
+  curson: pointer; }
+
+strong {
+  font-weight: 500; }
+
+/*=============================================================================
+   TRANSITIONS
+   ========================================================================== */
+/**** HOVER ****/
+/**** FADEIN ****/
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/**** GLOBAL RULES ****/
+a, a:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: "din";
+  font-size: 16.18034px;
+  -webkit-animation: fadeIn 1s ease-out 1;
+  animation: fadeIn 1s ease-out 1;
+  color: #FFF; }
+
+.svn-first {
+  background: url(../img/mainbg.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 790px; }
+
+.svn-first-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center; }
+
+.svn-first-card-container {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 227px;
+  margin-right: 154px; }
+
+.svn-first-desc-container {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left; }
+
+.svn-first-desc-txt {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  max-width: 505px; }
+
+.svn-first-btn-buy, .svn-first-btn-case {
+  display: inline-block;
+  border-radius: 40px;
+  padding: 13px 23px;
+  margin: 35px 17px 0 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "din";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-size: 15px;
+  color: #FFF; }
+
+.svn-first-btn-buy {
+  border: 1px solid #9F1C4E;
+  background: #9F1C4E; }
+
+.svn-first-btn-buy:hover {
+  background: #861842;
+  border: 1px solid #861842; }
+
+.svn-first-btn-case {
+  border: 1px solid #FFF;
+  background: transparent url(../img/medium.jpg) no-repeat 0 0;
+  padding-left: 72px; }
+
+.svn-first-btn-case:hover {
+  background: #FFF url(../img/medium.jpg) no-repeat 0 0;
+  color: #333346; }
+
+.svn-second {
+  background: linear-gradient(-180deg, #0C0B0E 0%, #111 100%);
+  padding-top: 80px; }
+
+.svn-second-desc {
+  color: #aaa;
+  line-height: 1.5; }
+
+.svn-second-containers {
+  margin-top: 80px; }
+
+.svn-second-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
+.svn-second-list-container, .svn-second-card {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top; }
+
+.svn-second-list-container {
+  margin-right: 170px; }
+
+.svn-second-list {
+  list-style-type: none; }
+
+.svn-second-list-text {
+  width: 380px; }
+
+.svn-second-list-item {
+  margin-bottom: 30px; }
+
+.svn-second-list-item:last-child {
+  margin-bottom: 0px; }
+
+.svn-second-list-item img {
+  margin-right: 23px; }
+
+.svn-second-list-text, .svn-second-list-item img {
+  display: inline-block;
+  vertical-align: middle; }
+
+.svn-second-list-text h4 {
+  font-size: 1rem; }
+
+.svn-second-list-text p {
+  margin-top: 6px;
+  font-size: 1rem;
+  color: #aaa;
+  line-height: 1.2; }
+
+.svn-third {
+  text-align: center;
+  padding-top: 80px; }
+
+.svn-third-title {
+  color: #111; }
+
+.svn-third-desc {
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 80px; }
+
+.svn-third-img {
+  margin-bottom: 40px; }
+
+.svn-third-btn {
+  margin: 0 auto;
+  margin-bottom: 80px; }
+
+.svn-third-btn a {
+  margin: 0; }
+
+footer {
+  height: 133px;
+  background: #111;
+  color: #ffffff;
+  display: table;
+  text-align: center;
+  width: 100%; }
+
+footer div {
+  display: table-cell;
+  vertical-align: middle; }
+
+footer p {
+  color: #aaa;
+  font-weight: 300; }
+
+footer a {
+  color: #fff; }

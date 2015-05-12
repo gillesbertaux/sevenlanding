@@ -31,3 +31,131 @@
 /**** GLOBAL RULES ****/
 
 a, a:hover { @include hover(.5s); }
+
+
+/*=============================================================================
+   TRANSITIONS
+   ========================================================================== */
+
+// ANIMATIONS CHROMES
+
+@-webkit-keyframes col--1__anim {
+    from { background-position:0px  0px ; }
+    to { background-position:0px  790px; }
+}
+
+@-webkit-keyframes col--2__anim {
+    from { background-position:$col  790px ; }
+    to { background-position:$col  0px; }
+}
+
+@-webkit-keyframes col--3__anim {
+    from { background-position:$col*2  0px ; }
+    to { background-position:$col*2  790px; }
+}
+@-webkit-keyframes col--4__anim {
+    from { background-position:$col*3  790px ; }
+    to { background-position:$col*3  0px; }
+}
+@-webkit-keyframes col--5__anim {
+    from { background-position:$col*4  0px ; }
+    to { background-position:$col*4  790px; }
+}
+@-webkit-keyframes col--6__anim {
+    from { background-position:$col*5  790px ; }
+    to { background-position:$col*5  0px; }
+}
+@-webkit-keyframes col--7__anim {
+    from { transform:translate(0, 0); }
+    to { transform: translate(0, 790px); }
+}
+@-webkit-keyframes col--8__anim {
+    from { background-position:$col*7  790px ; }
+    to { background-position:$col*7  0px; }
+}
+@-webkit-keyframes col--9__anim {
+    from { background-position:$col*8  0px ; }
+    to { background-position:$col*8  790px; }
+}
+@-webkit-keyframes col--10__anim {
+    from { background-position:$col*9  790px ; }
+    to { background-position:$col*9  0px; }
+}
+@-webkit-keyframes col--11__anim {
+    from { background-position:$col*10  0px ; }
+    to { background-position:$col*10  790px; }
+}
+@-webkit-keyframes col--12__anim {
+    from { background-position:$col*11  790px ; }
+    to { background-position:$col*11  0px; }
+}
+@-webkit-keyframes col--13__anim {
+    from { background-position:$col*12  0px ; }
+    to { background-position:$col*12  790px; }
+}
+@-webkit-keyframes col--14__anim {
+    from { background-position:$col*13  790px ; }
+    to { background-position:$col*13  0px; }
+}
+
+// ANIMATIONS FIREFOX
+
+@keyframes col--1__anim {
+    from { background-position:0px  0px ; }
+    to { background-position:0px  790px; }
+}
+
+@keyframes col--2__anim {
+    from { background-position:$col  790px ; }
+    to { background-position:$col  0px; }
+}
+
+@keyframes col--3__anim {
+    from { background-position:$col*2  0px ; }
+    to { background-position:$col*2  790px; }
+}
+@keyframes col--4__anim {
+    from { background-position:$col*3  790px ; }
+    to { background-position:$col*3  0px; }
+}
+@keyframes col--5__anim {
+    from { background-position:$col*4  0px ; }
+    to { background-position:$col*4  790px; }
+}
+@keyframes col--6__anim {
+    from { background-position:$col*5  790px ; }
+    to { background-position:$col*5  0px; }
+}
+@keyframes col--7__anim {
+    from { background-position:$col*6  0px ; }
+    to { background-position:$col*6  790px; }
+}
+@keyframes col--8__anim {
+    from { background-position:$col*7  790px ; }
+    to { background-position:$col*7  0px; }
+}
+@keyframes col--9__anim {
+    from { background-position:$col*8  0px ; }
+    to { background-position:$col*8  790px; }
+}
+@keyframes col--10__anim {
+    from { background-position:$col*9  790px ; }
+    to { background-position:$col*9  0px; }
+}
+@keyframes col--11__anim {
+    from { background-position:$col*10  0px ; }
+    to { background-position:$col*10  790px; }
+}
+@keyframes col--12__anim {
+    from { background-position:$col*11  790px ; }
+    to { background-position:$col*11  0px; }
+}
+@keyframes col--13__anim {
+    from { background-position:$col*12  0px ; }
+    to { background-position:$col*12  790px; }
+}
+@keyframes col--14__anim {
+    from { background-position:$col*13  790px ; }
+    to { background-position:$col*13 0px;}
+}
+
